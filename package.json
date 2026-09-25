@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "start": "node ./bin/http-server",
+    "install:global": "npm install -g .",
     "test": "tap --reporter=terse --allow-incomplete-coverage test/*.test.js",
     "test-watch": "tap --reporter=terse --allow-incomplete-coverage --watch test/*.test.js"
   },
